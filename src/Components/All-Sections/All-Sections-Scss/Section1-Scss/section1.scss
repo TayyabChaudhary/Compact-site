@@ -1,0 +1,45 @@
+// Navbar Start Section1//
+.navigation{
+    background: #1c383d;
+    height: 80px;
+}
+.logo{
+    img{
+        padding: 30px;
+        color: #ff6700;
+        font-size: 20px;
+        -webkit-text-emphasis: circle;
+        font-weight: 800;
+    }
+}
+.navbar-links{
+    position: absolute;
+    right: 10px;
+    top: 0px;
+    ul{
+        display: flex;
+        line-height: 88px;
+    }
+    ul a{
+        padding: 17px;
+        color: #fff;
+        text-transform: uppercase;
+    }
+    ul a:hover{
+        color: #ff6700;
+        border-top: 2px solid #ff6700;
+    }
+    button{
+        padding: 9px 30px;
+        background: #ff6700;
+        border: none;
+        border-radius: 5px;
+        color: #fff;
+        font-size: 17px;
+    }
+    button:hover{
+        background: transparent;
+        border: 1px solid #ff6700;
+    }
+}
+//  End Navbar
